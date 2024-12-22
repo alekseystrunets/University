@@ -1,0 +1,10 @@
+﻿  LAB_7_CODE.cpp
+D:\lab for Qt\lab7\LAB_7_CODE\LAB_7_CODE\LAB_7_CODE.cpp(39,9): warning C4984: "if constexpr" — расширение языка C++17
+      D:\lab for Qt\lab7\LAB_7_CODE\LAB_7_CODE\LAB_7_CODE.cpp(39,9):
+      контекст создания экземпляра шаблона (сначала самый старый)
+          D:\lab for Qt\lab7\LAB_7_CODE\LAB_7_CODE\LAB_7_CODE.cpp(9,7):
+          при компиляции шаблона класса "Array"
+  
+D:\lab for Qt\lab7\LAB_7_CODE\LAB_7_CODE\LAB_7_CODE.cpp(48,14): warning C4984: "if constexpr" — расширение языка C++17
+D:\lab for Qt\lab7\LAB_7_CODE\LAB_7_CODE\LAB_7_CODE.cpp(52,14): warning C4984: "if constexpr" — расширение языка C++17
+  LAB_7_CODE.vcxproj -> D:\lab for Qt\lab7\LAB_7_CODE\x64\Debug\LAB_7_CODE.exe
