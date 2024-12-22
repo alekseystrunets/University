@@ -1,0 +1,29 @@
+ul.crumbs {
+    list-style: none;
+    font-family: sans-serif;
+    display: flex;
+}
+
+ul.crumbs li {
+    display: inline;
+}
+
+ul.crumbs li:not(.move)::after {
+    content: ">";
+    font-size: 10px;
+    margin: 5px;
+    vertical-align: middle;
+}
+
+ul.crumbs a {
+    color: #0b56ea;
+    text-decoration: none;
+}
+ul.crumbs a:hover {
+    color: #0b56ea;
+    text-decoration: underline;
+}
+
+ul.crumbs li.move {
+    color: #333;
+}

@@ -1,0 +1,59 @@
+nav {
+    display: flex;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    display: inline-block;
+    position: relative;
+    width: 200px;
+}
+
+nav a {
+    background-color: #333;
+    width: 200px;
+    height: 40px;
+    color: #fff;
+    border: none;
+    text-decoration: none;
+    display: block;
+    font-family: sans-serif;
+    line-height: 40px;
+    padding: 2px;
+}
+
+.menu > li > a {
+    text-align: center;
+}
+
+nav a:hover {
+    background-color: #444;
+}
+
+.smenu {
+    display: inline-block;
+    position: relative;
+}
+
+.content {
+    display: none;
+    background-color: #444;
+    width: auto;
+    height: auto;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+}
+
+.smenu:hover .content {
+    display: block;
+}
+
+.content a {
+    text-align: left;
+}

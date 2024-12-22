@@ -1,0 +1,14 @@
+body{
+    display: grid;
+    grid-template-areas: 'header header header' 'lef article article' 'footer footer footer';
+    grid-template-rows: 100px 300px 100px; 
+    grid-template-columns: 10% 15% 15%;
+    grid-gap: 0;   
+
+ }
+
+ header, footer, article, lef { padding: 5px; border: 2px solid;}
+ #Header1 { grid-area: header; }
+ #Footer1 { grid-area: footer; }
+ #Article1 { grid-area: article; border-bottom: unset; border-top: unset;}
+ #Lef1{grid-area: lef; border-right: unset; border-bottom: unset; border-top: unset;}
