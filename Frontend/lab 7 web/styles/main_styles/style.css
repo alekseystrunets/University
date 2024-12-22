@@ -1,0 +1,214 @@
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+header {
+  background-color: #222222;
+}
+header .navigate {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 3vw;
+  margin-right: 5vw;
+  padding: 1%;
+}
+header .navigate .burger-menu {
+  display: none;
+}
+header .navigate .burger-menu span {
+  user-select: none;
+  z-index: 100;
+  font-size: 50px;
+  cursor: pointer;
+  color: white;
+  transition: all 0.3s ease-in-out;
+  margin-left: 30px;
+  margin-right: 40px;
+}
+header .navigate .logo-image {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #C8CC93;
+}
+header .navigate .logo-image h2 {
+  font-size: 25px;
+  transition: color 0.5s ease;
+}
+header .navigate .logo-image h2:hover {
+  color: #b5b53f;
+}
+header .navigate .logo-image img {
+  width: 75px;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+header .navigate ul {
+  display: flex;
+  list-style-type: none;
+}
+header .navigate ul li {
+  margin-left: 35px;
+}
+header .navigate ul li a {
+  text-decoration: none;
+  color: #C8CC93;
+  font-size: 20px;
+  transition: color 0.5s ease, border-bottom 0.5s ease;
+  border-bottom: 2px solid transparent;
+}
+header .navigate ul li a:hover {
+  color: #b5b53f;
+  border-bottom: 2px solid #b5b53f;
+}
+header .openNav {
+  display: none;
+  width: 30vw;
+  right: 0%;
+  position: absolute;
+  list-style-type: none;
+  z-index: 100;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  text-align: center;
+  background-color: black;
+  padding-bottom: 30px;
+  border-radius: 10px;
+}
+header .openNav li {
+  margin-top: 10px;
+}
+header .openNav li a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  transition: color 0.5s ease;
+}
+header .openNav li a:hover {
+  color: #b5b53f;
+}
+article {
+  display: flex;
+  justify-content: space-around;
+  margin: 35px 40px 50px 40px;
+}
+article .image_column {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+article .image_column img {
+  border-radius: 20px;
+  margin-top: 35px;
+  cursor: pointer;
+}
+article .image_column .first_column,
+article .image_column .second_column,
+article .image_column .second_column-high,
+article .image_column .third_column {
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+article .image_column .first_column {
+  width: 27vw;
+  height: 85vh;
+}
+article .image_column .second_column {
+  width: 27vw;
+  height: 30vh;
+}
+article .image_column .second_column-high {
+  width: 27vw;
+  height: 70vh;
+}
+article .image_column .third_column {
+  width: 27vw;
+  height: 40vh;
+}
+article .image_column .first_column:hover,
+article .image_column .second_column:hover,
+article .image_column .second_column-high:hover,
+article .image_column .third_column:hover {
+  transform: scale(1.05);
+}
+footer {
+  display: flex;
+  align-items: center;
+  background-color: #222222;
+  padding: 20px;
+}
+footer .creator_text {
+  margin-left: 60px;
+}
+footer .creator_text p {
+  font-size: 20px;
+  color: white;
+}
+footer .icons {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+footer .icons img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-left: 10px;
+  transition: transform 0.2s ease-in-out;
+}
+footer .icons img:hover {
+  transform: translateY(-5px);
+}
+.modal {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.modal img {
+  max-width: 90%;
+  max-height: 90%;
+  transition: all 0.3s ease-in-out;
+  border-radius: 15px;
+}
+@media (max-width: 700px) {
+  header .navigate ul {
+    display: none;
+  }
+  header .navigate .burger-menu {
+    display: flex;
+  }
+  article {
+    flex-direction: column;
+  }
+  article .image_column .first_column {
+    width: 80vw;
+    height: 60vh;
+  }
+  article .image_column .second_column,
+  article .image_column .second_column-high {
+    width: 80vw;
+    height: 60vh;
+  }
+  article .image_column .third_column {
+    width: 80vw;
+    height: 60vh;
+  }
+  footer {
+    display: flex;
+    flex-direction: column;
+  }
+}
