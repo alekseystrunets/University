@@ -1,0 +1,17 @@
+.areas{
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+}
+#both{
+    resize: both;
+    }
+#none{
+    resize: none;
+    }
+#horizontal{
+    resize: horizontal;
+}   
+#vertical{
+    resize: vertical;
+}

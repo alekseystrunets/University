@@ -1,0 +1,33 @@
+.box{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-auto-rows: minmax(0px, auto);  
+}
+
+img{
+    width: 40%;
+}
+
+.one{
+    filter: grayscale(80%);
+}
+
+.two{
+    filter: saturate(50%);
+}
+
+.three{
+    filter: invert(100%);
+}
+
+.four{
+    filter: sepia(80%);
+}
+
+.five{
+    filter: hue-rotate(90deg);
+}
+
+.six{
+    filter: contrast(50%);
+}

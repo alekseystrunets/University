@@ -1,0 +1,49 @@
+.grid-container{
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: repeat(3, 1fr); 
+    column-gap: 1vh;
+}
+
+.header{
+    text-align: center;
+    font-family: 'Bahnschrift Light', 'Bahnschrift', 'Candara Light', Candara ;
+}
+
+h2{
+    text-align: center;
+    font-family: 'Bahnschrift Light', 'Bahnschrift', 'Candara Light', Candara ;
+}
+
+.one, .two, .three{
+    background-color: rgb(255, 230, 214);
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 6px;
+}
+
+.pink,.blue,.green{
+    margin: 1vh;
+    height: 50px;
+}
+
+p{
+    text-align: center;
+    height: fit-content;
+    min-height: 40px;
+}
+
+.pink{
+    background-color: #ffc7c7;
+}
+
+.blue{
+    background-color: rgb(205, 202, 255);
+}
+
+.green{
+    background-color: rgb(195, 255, 218);
+}

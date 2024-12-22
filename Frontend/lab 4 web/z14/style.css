@@ -1,0 +1,140 @@
+.around{
+    background: #bacad3;
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+}
+
+.building{
+    width: 300px;
+    height: 100px;
+    background: #fff;
+    position: relative;
+    left: 100px;
+    top: 120px
+}
+
+.building::before{
+    content: '';
+    display: inline-block;
+    position: absolute;
+    left: 100px;
+    bottom: 110px;
+    border-left: 100px solid #803900;
+    border-right: 50px solid #803900;
+    border-bottom: 30px solid #803900;
+}
+
+.building::after{
+    content: '';
+    display: inline-block;
+    position: relative;
+    bottom: 60px;
+    left: 40px;
+    border-left: 210px solid #803900;
+    border-right: 50px solid #bacad3;
+    border-bottom: 20px solid #803900;
+}
+
+.area{
+    display: inline-block;
+    width: 30px;
+    height: 40px;
+    position: relative;
+    top: 25px;
+    left: 50px;
+    background: #424242;
+}
+
+#light{
+    visibility: hidden;
+}
+
+.home{
+    width: 100px;
+    height: 160px;
+    background: #fff;
+    position: relative;
+    left: 100px;
+    top: 120px
+}
+
+.home::before{
+    content: '';
+    display: inline-block;
+    width: 0px;
+    height: 0px;
+    border-left: 50px solid #bacad3;
+    border-right: 50px solid #bacad3;
+    border-style: solid;
+    border-width: 0 50px 60px 50px;
+    border-bottom-color: #803900;
+}
+
+.home::after{
+    content: '';
+    display: inline-block;
+    width: 30px;
+    height: 40px;
+    position: relative;
+    left: 40px;
+    top: 10px;
+    background: #424242;
+}
+
+.clouds{
+    width: 200px;
+    height: 60px;
+    background: #fff;
+    border-radius: 120px;
+    position: relative;
+}
+
+.clouds::before, .clouds::after{
+    content: '';
+    background: #fff;
+    width: 70px;
+    height: 30px;
+    position: absolute;
+    border-radius: 30px;
+}
+
+.clouds::after{
+    width: 120px;
+    height: 120px;
+    top: -45px;
+    right: 15px;
+}
+
+#one{
+    top: -180px;
+    transform: scale(0.7);
+    animation: movecl1 7s linear infinite;
+}
+
+#two{
+    top: -150px;
+    transform: scale(0.4);
+    animation: movecl2 5s linear infinite;
+}
+
+#three{
+    top: -170px;
+    transform: scale(0.2);
+    animation: movecl3 9s linear infinite;
+}
+
+@keyframes movecl1{
+    from {left: -280px;}
+    to {left: 500px;}
+}
+
+@keyframes movecl2{
+    from {left: -160px;}
+    to {left: 500px;}
+}
+
+@keyframes movecl3{
+    from {left: -320px;}
+    to {left: 500px;}
+}

@@ -1,0 +1,25 @@
+button{
+    border: 1px solid #a7a6a6;
+    background-color: #a7a6a6;
+	border-radius: 1em;
+	width: 6em;
+	height: 3em;	
+    padding: 1em;
+	box-shadow: 0.1em 0.1em 0.1em #a7a6a6;
+	margin-right: 20px;
+    font-family: arial;	 
+}
+.button_one{
+    font-size: 1em;
+}
+.button_two{
+    font-size: 1.5em;
+}
+.button_three{
+    font-size: 2em;
+}
+nav a{
+	text-decoration: none;
+	font-family: arial;
+	color: black;
+}	

@@ -1,0 +1,37 @@
+.box{
+    display: inline-block;
+    width: 100%;
+}
+div{
+    margin: 20px;
+}
+.one{
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(180deg, orange, rgb(255, 255, 255));
+    border: 1px solid black;
+}
+.two{
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(90deg, orange, rgb(255, 255, 255));
+    border: 1px solid black;
+}
+.three{
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(-90deg, orange, rgb(255, 255, 255));
+    border: 1px solid black;
+}
+.four{
+    width: 300px;
+    height: 200px;
+    background: linear-gradient(to bottom, red 33%, white 33%, white 66%, red 60%);
+    border: 1px solid black;
+}
+.five{
+    width: 300px;
+    height: 200px;
+    background: linear-gradient(to right, red, blue, white, red);
+    border: 1px solid black;
+}

@@ -1,0 +1,33 @@
+.box{
+    display: inline-block;
+    width: 100%;
+}
+div{
+    margin: 20px;
+}
+#one{
+    border: 1px solid black;
+    height: 200px;
+    width: 200px;
+    background: radial-gradient( white, rgb(2, 2, 244) 70%);
+}
+#two{
+    background: radial-gradient( white, rgb(2, 2, 244) 90%);
+    border: 1px solid black ;
+    width: 400px;
+    height: 200px;
+
+}
+#three{
+    background: radial-gradient(circle at  10% 20% , white, rgb(2, 2, 244) 20% );
+    border: 1px solid black ;
+    width: 400px;
+    height: 200px;
+
+}
+#four{
+    background: radial-gradient(circle, black ,white 20%,green 20% 100%);
+    border: 1px solid black ;
+    width: 400px;
+    height: 200px;
+}

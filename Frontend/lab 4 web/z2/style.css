@@ -1,0 +1,21 @@
+.areas{
+    display: inline-block;
+    width: 100px;
+    height: 100%;
+}
+#first{
+    cursor: pointer;
+    resize: none;
+    }
+#second{
+    cursor: progress;
+    resize: none;
+    }
+#third{
+    cursor: wait;
+    resize: none;
+}   
+#fourth{
+    cursor: not-allowed;
+    resize: none;
+}

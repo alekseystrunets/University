@@ -1,0 +1,25 @@
+.box{
+    display: inline-block;
+    width: 100%;
+}
+div{
+    margin: 100px;
+}
+.box_one{
+    border: 1px solid black;
+    height: 200px;
+    width: 200px;
+    box-shadow: 30px 25px 5px  grey;
+}
+.box_two{
+    border: 1px solid black;
+    height: 200px;
+    width: 200px;  
+    box-shadow: 30px 30px 5px  grey, -30px -30px 5px grey;
+}
+.box_three{
+    border: 1px solid black;
+    height: 200px;
+    width: 200px;
+    box-shadow: inset 4px 4px 4px 4px grey;
+}

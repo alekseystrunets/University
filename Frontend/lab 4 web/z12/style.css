@@ -1,0 +1,26 @@
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    padding-left: 10%;
+    padding-right: 10%;
+    
+}
+.elem{
+    padding: 1em;
+    background-color: blue;
+    color: white;
+    max-width: 50%;
+    margin: 5px;
+    height: 270px;
+    flex: 1 100px;
+}
+@media screen and (max-width: 50em)
+{
+    .elem
+    {
+        min-width: 30vh;
+    }
+}
