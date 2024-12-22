@@ -1,0 +1,65 @@
+button {
+    height: 150px;
+    width: 350px;
+    background-color: rgb(107, 141, 244);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    transition: all 0.7s;
+}
+
+#ship {
+    position: relative;
+    top: 20em;
+    left: 5em;
+    transition: all 4s;
+    transition-delay: 3s;
+    width: 350px;
+}
+
+#board {
+    width: 200px;
+    height: 25px;
+    transition: all 1s ease-in-out 1s;
+    position: absolute;
+    top: 0px;
+    left: 10px;
+    background-color:rgb(107, 141, 244);;
+    z-index: -1;
+    transform-origin: right center;     /*начало преобраз*/
+}
+
+#sail_one {
+    transition: all 1s;
+    transform-origin: bottom center;
+    transition-delay: 2s;
+    transform: rotateX(90deg);
+    position: absolute;
+    top: -190px;
+    width: 0;
+    height: 0;
+    border-bottom: 180px solid white;
+    border-left: 150px solid transparent;
+    left: 45px;
+}
+
+#sail_two {
+    transition: all 1s;
+    transition-delay: 2s;
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-bottom: 180px solid white;
+    border-right: 100px solid transparent;
+    transform: rotateX(90deg);
+    transform-origin: bottom center;
+    left: 225px;
+    top: -190px;
+}
+
+html {
+    background: blueviolet;
+    height: 100vh;
+    overflow: hidden;
+}

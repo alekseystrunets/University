@@ -1,0 +1,45 @@
+body{
+    background-image: url(./img/bg.jpg);
+    background-repeat: no-repeat;
+
+}
+
+#img{
+    position: absolute;
+}
+
+.planet-3{
+    top: 180px;
+    left: 160px;
+  width: 300px;
+  height: 220px;
+  background: no-repeat url("./img/planet-3.png");
+  background-size: 100% auto;
+  z-index: 1;
+}
+
+.planet-2{
+    top: 100px;
+    left: 70px;
+}
+
+.planet-1{
+    top: 65px;
+    left: 210px;
+}
+
+.combination{
+    top: 140px;
+    left: 55px;
+}
+
+.button{
+    top: 250px;
+    left: 240px;
+    z-index: 2;
+    border-radius: 15px;
+    padding: 7px 25px;
+    color: rgb(204, 90, 58);;
+    background-color: rgb(245, 218, 198);
+    cursor: pointer;
+}

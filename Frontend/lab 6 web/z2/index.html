@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2 class="pr">Заголовок с классом pr.</h2>
+    <p class="pr">Абзац с классом pr.</p>
+    <p class="pr">Абзац с классом pr.</p>
+    <p>Просто абзац, не поменяется.</p>
+    <button id="changes" onclick="func()">Поменять</button>
+    <script>
+        function func()
+        {
+            let prs = document.querySelectorAll('.pr');
+            for(let i=0; i<prs.length; i++){
+                prs[i].innerHTML = i+1;
+            }
+        }
+    </script>
+</body>
+</html>
