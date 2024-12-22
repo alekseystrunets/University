@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>C:/Users/HP/Downloads/Telegram Desktop/four.jpg</file>
+        <file>C:/Users/HP/Downloads/Calculator.ico</file>
+    </qresource>
+</RCC>
